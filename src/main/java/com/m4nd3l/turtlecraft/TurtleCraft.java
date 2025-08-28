@@ -54,6 +54,8 @@ public class TurtleCraft
             event.accept(ModItems.SCUTE_INGOT);
             event.accept(ModItems.REINFORCED_SCUTE_INGOT);
             event.accept(ModItems.HARDENED_SCUTE_INGOT);
+            event.accept(ModItems.REINFORCED_SCUTE);
+            event.accept(ModItems.HARDENED_SCUTE);
         }
     }
 

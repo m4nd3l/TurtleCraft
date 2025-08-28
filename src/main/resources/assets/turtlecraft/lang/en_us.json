@@ -1,5 +1,7 @@
 {
   "item.turtlecraft.scute_ingot": "Scute Ingot",
   "item.turtlecraft.reinforced_scute_ingot": "Reinforced Scute Ingot",
-  "item.turtlecraft.hardened_scute_ingot": "Hardened Scute Ingot"
+  "item.turtlecraft.hardened_scute_ingot": "Hardened Scute Ingot",
+  "item.turtlecraft.reinforced_scute": "Reinforced Scute",
+  "item.turtlecraft.hardened_scute": "Hardened Scute"
 }
