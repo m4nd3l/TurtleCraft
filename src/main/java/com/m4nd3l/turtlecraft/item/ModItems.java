@@ -1,0 +1,21 @@
+package com.m4nd3l.turtlecraft.item;
+
+import com.m4nd3l.turtlecraft.TurtleCraft;
+import net.minecraft.world.item.Item;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
+
+public class ModItems {
+    public static final DeferredRegister<Item> ITEMS =
+            DeferredRegister.create(ForgeRegistries.ITEMS, TurtleCraft.MOD_ID);
+
+    //SCUTE INGOT
+    public static final RegistryObject<Item> SCUTE_INGOT = ITEMS.register("scute_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static void register(IEventBus eventBus) {
+        ITEMS.register(eventBus);
+    }
+}
