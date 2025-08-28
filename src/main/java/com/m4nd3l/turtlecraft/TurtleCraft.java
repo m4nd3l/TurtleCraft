@@ -52,6 +52,8 @@ public class TurtleCraft
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SCUTE_INGOT);
+            event.accept(ModItems.REINFORCED_SCUTE_INGOT);
+            event.accept(ModItems.HARDENED_SCUTE_INGOT);
         }
     }
 

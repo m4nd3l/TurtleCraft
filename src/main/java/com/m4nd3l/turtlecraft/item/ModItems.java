@@ -15,6 +15,15 @@ public class ModItems {
     public static final RegistryObject<Item> SCUTE_INGOT = ITEMS.register("scute_ingot",
             () -> new Item(new Item.Properties()));
 
+    //REINFORCED SCUTE INGOT
+    public static final RegistryObject<Item> REINFORCED_SCUTE_INGOT = ITEMS.register("reinforced_scute_ingot",
+            () -> new Item(new Item.Properties()));
+
+    //REINFORCED SCUTE INGOT
+    public static final RegistryObject<Item> HARDENED_SCUTE_INGOT = ITEMS.register("hardened_scute_ingot",
+            () -> new Item(new Item.Properties()));
+
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
