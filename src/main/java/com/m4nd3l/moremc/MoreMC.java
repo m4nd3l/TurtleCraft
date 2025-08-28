@@ -1,6 +1,7 @@
-package com.m4nd3l.turtlecraft;
+package com.m4nd3l.moremc;
 
-import com.m4nd3l.turtlecraft.item.ModItems;
+import com.m4nd3l.moremc.blocks.ModBlocks;
+import com.m4nd3l.moremc.items.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -18,15 +19,15 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(TurtleCraft.MOD_ID)
-public class TurtleCraft
+@Mod(MoreMC.MOD_ID)
+public class MoreMC
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "turtlecraft";
+    public static final String MOD_ID = "moremc";
     // Directly reference a slf4j logger, it's useful.
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public TurtleCraft() {
+    public MoreMC() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         // Register the commonSetup method for modloading
@@ -36,6 +37,7 @@ public class TurtleCraft
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -56,6 +58,7 @@ public class TurtleCraft
             event.accept(ModItems.HARDENED_SCUTE_INGOT);
             event.accept(ModItems.REINFORCED_SCUTE);
             event.accept(ModItems.HARDENED_SCUTE);
+            event.accept(ModBlocks.SCUTE_BLOCK);
         }
     }
 

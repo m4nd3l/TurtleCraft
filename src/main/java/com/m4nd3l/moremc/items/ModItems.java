@@ -1,6 +1,6 @@
-package com.m4nd3l.turtlecraft.item;
+package com.m4nd3l.moremc.items;
 
-import com.m4nd3l.turtlecraft.TurtleCraft;
+import com.m4nd3l.moremc.MoreMC;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -9,31 +9,36 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, TurtleCraft.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, MoreMC.MOD_ID);
+
+
 
     // INGOT
 
-    //SCUTE INGOT
+        //SCUTE INGOT
     public static final RegistryObject<Item> SCUTE_INGOT = ITEMS.register("scute_ingot",
             () -> new Item(new Item.Properties()));
 
-    //REINFORCED SCUTE INGOT
+        //REINFORCED SCUTE INGOT
     public static final RegistryObject<Item> REINFORCED_SCUTE_INGOT = ITEMS.register("reinforced_scute_ingot",
             () -> new Item(new Item.Properties()));
 
-    //REINFORCED SCUTE INGOT
+        //REINFORCED SCUTE INGOT
     public static final RegistryObject<Item> HARDENED_SCUTE_INGOT = ITEMS.register("hardened_scute_ingot",
             () -> new Item(new Item.Properties()));
 
+
+
     // SCUTE
 
-    //REINFORCED SCUTE INGOT
+        //REINFORCED SCUTE INGOT
     public static final RegistryObject<Item> REINFORCED_SCUTE = ITEMS.register("reinforced_scute",
             () -> new Item(new Item.Properties()));
 
-    //REINFORCED SCUTE INGOT
+        //REINFORCED SCUTE INGOT
     public static final RegistryObject<Item> HARDENED_SCUTE = ITEMS.register("hardened_scute",
             () -> new Item(new Item.Properties()));
+
 
 
     public static void register(IEventBus eventBus) {
