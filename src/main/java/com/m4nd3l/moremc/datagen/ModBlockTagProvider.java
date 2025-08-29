@@ -2,6 +2,7 @@ package com.m4nd3l.moremc.datagen;
 
 import com.m4nd3l.moremc.MoreMC;
 import com.m4nd3l.moremc.blocks.ModBlocks;
+import com.m4nd3l.moremc.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -38,5 +39,28 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
                 .add(ModBlocks.HARDENED_SCUTE_BLOCK.get())
                 .add(ModBlocks.REINFORCED_SCUTE_INGOT_BLOCK.get());
+
+        tag(ModTags.Blocks.NEEDS_SCUTE_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_SCUTE_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_NETHERITE_TOOL)
+                .remove(ModTags.Blocks.NEEDS_SCUTE_TOOL);
+
+
+        tag(ModTags.Blocks.NEEDS_REINFORCED_SCUTE_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_REINFORCED_SCUTE_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_NETHERITE_TOOL)
+                .remove(ModTags.Blocks.NEEDS_REINFORCED_SCUTE_TOOL);
+
+
+        tag(ModTags.Blocks.NEEDS_HARDENED_SCUTE_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_HARDENED_SCUTE_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_NETHERITE_TOOL)
+                .remove(ModTags.Blocks.NEEDS_HARDENED_SCUTE_TOOL);
     }
 }

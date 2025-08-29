@@ -1,6 +1,11 @@
-// 1.21	2025-08-29T20:45:13.0399872	Item Models: moremc
+// 1.21	2025-08-29T22:10:27.2196905	Item Models: moremc
 de2d829fbc727837288770aac933b0f945a3ac7c assets/moremc/models/item/hardened_scute.json
 db027dee02032ea1ecd1c59d6f42041d67491411 assets/moremc/models/item/hardened_scute_ingot.json
 3781938d134006c9c876c362eda081bd4001481a assets/moremc/models/item/reinforced_scute.json
 650c6d5d3a4eca756f92c97ece22840e79ae3afe assets/moremc/models/item/reinforced_scute_ingot.json
+10367c98610fe7fbd2d7967efec898b02e3171d3 assets/moremc/models/item/scute_axe.json
+ec37d1404147c5e9a36a183b0277a8517035b098 assets/moremc/models/item/scute_hoe.json
 4bbc8afb2d9c54fe54f1b2a356a5d4de1049ec61 assets/moremc/models/item/scute_ingot.json
+0c1b8a0434c2a3311b1eae489969ccf163eff809 assets/moremc/models/item/scute_pickaxe.json
+4a993a1d318a82ffb1de8e475a6fe6eb117965dc assets/moremc/models/item/scute_shovel.json
+750213255b14c61e661ec0edbc5d0c8e8d657750 assets/moremc/models/item/scute_sword.json

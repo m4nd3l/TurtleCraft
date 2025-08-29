@@ -65,6 +65,14 @@ public class MoreMC
             event.accept(ModItems.HARDENED_SCUTE);
         }
 
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.SCUTE_SWORD);
+            event.accept(ModItems.SCUTE_PICKAXE);
+            event.accept(ModItems.SCUTE_AXE);
+            event.accept(ModItems.SCUTE_SHOVEL);
+            event.accept(ModItems.SCUTE_HOE);
+        }
+
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.SCUTE_BLOCK);
             event.accept(ModBlocks.REINFORCED_SCUTE_BLOCK);

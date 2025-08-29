@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 600,
+  "experience": 0.05,
+  "ingredient": {
+    "item": "moremc:hardened_scute"
+  },
+  "result": {
+    "id": "moremc:hardened_scute_ingot"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "remove": [
+    "#moremc:needs_hardened_scute_tool"
+  ],
+  "values": [
+    "#minecraft:incorrect_for_netherite_tool"
+  ]
+}

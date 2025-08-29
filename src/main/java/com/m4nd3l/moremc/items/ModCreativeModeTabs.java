@@ -38,6 +38,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.HARDENED_SCUTE_INGOT.get());
                         output.accept(ModBlocks.HARDENED_SCUTE_INGOT_BLOCK.get());
 
+                        output.accept(ModItems.SCUTE_SWORD.get());
+                        output.accept(ModItems.SCUTE_PICKAXE.get());
+                        output.accept(ModItems.SCUTE_AXE.get());
+                        output.accept(ModItems.SCUTE_SHOVEL.get());
+                        output.accept(ModItems.SCUTE_HOE.get());
+
                     }).build());
 
     // PER LE ALTRE TAB AGGIUNGI .withTabsBefore(SCUTE_ITEMS_TAB.getId())
