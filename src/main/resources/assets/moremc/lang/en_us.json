@@ -7,5 +7,7 @@
 
   "block.moremc.scute_block": "Scute Block",
   "block.moremc.reinforced_scute_block": "Reinforced Scute Block",
-  "block.moremc.hardened_scute_block": "Hardened Scute Block"
+  "block.moremc.hardened_scute_block": "Hardened Scute Block",
+
+  "creativetab.moremc.scuteitems": "MoreMC - Scute Tab"
 }

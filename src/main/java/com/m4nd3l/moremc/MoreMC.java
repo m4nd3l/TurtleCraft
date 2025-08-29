@@ -1,6 +1,7 @@
 package com.m4nd3l.moremc;
 
 import com.m4nd3l.moremc.blocks.ModBlocks;
+import com.m4nd3l.moremc.items.ModCreativeModeTabs;
 import com.m4nd3l.moremc.items.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -36,6 +37,8 @@ public class MoreMC
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -58,6 +61,9 @@ public class MoreMC
             event.accept(ModItems.HARDENED_SCUTE_INGOT);
             event.accept(ModItems.REINFORCED_SCUTE);
             event.accept(ModItems.HARDENED_SCUTE);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.SCUTE_BLOCK);
             event.accept(ModBlocks.REINFORCED_SCUTE_BLOCK);
             event.accept(ModBlocks.HARDENED_SCUTE_BLOCK);
