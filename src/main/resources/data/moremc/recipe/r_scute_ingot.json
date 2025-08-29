@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 400,
+  "experience": 0.05,
+  "group": "reinforced_scute",
+  "ingredient": {
+    "item": "moremc:reinforced_scute"
+  },
+  "result": {
+    "id": "moremc:reinforced_scute_ingot"
+  }
+}

@@ -5,6 +5,7 @@ import com.m4nd3l.moremc.items.ModCreativeModeTabs;
 import com.m4nd3l.moremc.items.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -56,6 +57,7 @@ public class MoreMC
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(Items.TURTLE_SCUTE);
             event.accept(ModItems.SCUTE_INGOT);
             event.accept(ModItems.REINFORCED_SCUTE_INGOT);
             event.accept(ModItems.HARDENED_SCUTE_INGOT);
@@ -67,6 +69,10 @@ public class MoreMC
             event.accept(ModBlocks.SCUTE_BLOCK);
             event.accept(ModBlocks.REINFORCED_SCUTE_BLOCK);
             event.accept(ModBlocks.HARDENED_SCUTE_BLOCK);
+
+            event.accept(ModBlocks.SCUTE_INGOT_BLOCK);
+            event.accept(ModBlocks.REINFORCED_SCUTE_INGOT_BLOCK);
+            event.accept(ModBlocks.HARDENED_SCUTE_INGOT_BLOCK);
         }
     }
 

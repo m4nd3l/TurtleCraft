@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "moremc:hardened_scute_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "moremc:hardened_scute"
+  }
+}

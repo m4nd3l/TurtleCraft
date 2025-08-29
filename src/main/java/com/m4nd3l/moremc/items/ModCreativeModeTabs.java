@@ -24,16 +24,20 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.moremc.scuteitems"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(Items.TURTLE_SCUTE);
-                        output.accept(ModItems.SCUTE_INGOT.get());
                         output.accept(ModBlocks.SCUTE_BLOCK.get());
+                        output.accept(ModItems.SCUTE_INGOT.get());
+                        output.accept(ModBlocks.SCUTE_INGOT_BLOCK.get());
 
                         output.accept(ModItems.REINFORCED_SCUTE.get());
-                        output.accept(ModItems.REINFORCED_SCUTE_INGOT.get());
                         output.accept(ModBlocks.REINFORCED_SCUTE_BLOCK.get());
+                        output.accept(ModItems.REINFORCED_SCUTE_INGOT.get());
+                        output.accept(ModBlocks.REINFORCED_SCUTE_INGOT_BLOCK.get());
 
                         output.accept(ModItems.HARDENED_SCUTE.get());
-                        output.accept(ModItems.HARDENED_SCUTE_INGOT.get());
                         output.accept(ModBlocks.HARDENED_SCUTE_BLOCK.get());
+                        output.accept(ModItems.HARDENED_SCUTE_INGOT.get());
+                        output.accept(ModBlocks.HARDENED_SCUTE_INGOT_BLOCK.get());
+
                     }).build());
 
     // PER LE ALTRE TAB AGGIUNGI .withTabsBefore(SCUTE_ITEMS_TAB.getId())

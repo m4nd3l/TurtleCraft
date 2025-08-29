@@ -2,6 +2,11 @@
   "item.moremc.scute_ingot": "Scute Ingot",
   "item.moremc.reinforced_scute_ingot": "Reinforced Scute Ingot",
   "item.moremc.hardened_scute_ingot": "Hardened Scute Ingot",
+
+  "block.moremc.scute_ingot_block": "Scute Ingot Block",
+  "block.moremc.reinforced_scute_ingot_block": "Reinforced Scute Ingot Block",
+  "block.moremc.hardened_scute_ingot_block": "Hardened Scute Ingot Block",
+
   "item.moremc.reinforced_scute": "Reinforced Scute",
   "item.moremc.hardened_scute": "Hardened Scute",
 

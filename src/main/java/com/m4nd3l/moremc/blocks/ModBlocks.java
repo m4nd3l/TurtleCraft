@@ -33,6 +33,21 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(8f).requiresCorrectToolForDrops().sound(SoundType.DRIPSTONE_BLOCK)));
 
+    //SCUTE INGOT BLOCK
+    public static final RegistryObject<Block> SCUTE_INGOT_BLOCK = registerBlock("scute_ingot_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    //REINFORCED SCUTE INGOT BLOCK
+    public static final RegistryObject<Block> REINFORCED_SCUTE_INGOT_BLOCK = registerBlock("reinforced_scute_ingot_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(6f).requiresCorrectToolForDrops().sound(SoundType.DRIPSTONE_BLOCK)));
+
+    //HARDENED SCUTE INGOT BLOCK
+    public static final RegistryObject<Block> HARDENED_SCUTE_INGOT_BLOCK = registerBlock("hardened_scute_ingot_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(8f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
