@@ -59,6 +59,8 @@ public class MoreMC
             event.accept(ModItems.REINFORCED_SCUTE);
             event.accept(ModItems.HARDENED_SCUTE);
             event.accept(ModBlocks.SCUTE_BLOCK);
+            event.accept(ModBlocks.REINFORCED_SCUTE_BLOCK);
+            event.accept(ModBlocks.HARDENED_SCUTE_BLOCK);
         }
     }
 

@@ -21,7 +21,17 @@ public class ModBlocks {
     //SCUTE BLOCK
     public static final RegistryObject<Block> SCUTE_BLOCK = registerBlock("scute_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.SCAFFOLDING)));
+
+    //REINFORCED SCUTE BLOCK
+    public static final RegistryObject<Block> REINFORCED_SCUTE_BLOCK = registerBlock("reinforced_scute_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(6f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+    //HARDENED SCUTE BLOCK
+    public static final RegistryObject<Block> HARDENED_SCUTE_BLOCK = registerBlock("hardened_scute_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(8f).requiresCorrectToolForDrops().sound(SoundType.DRIPSTONE_BLOCK)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

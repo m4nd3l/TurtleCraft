@@ -5,5 +5,7 @@
   "item.moremc.reinforced_scute": "Reinforced Scute",
   "item.moremc.hardened_scute": "Hardened Scute",
 
-  "item.moremc.scute_block": "Scute Block"
+  "block.moremc.scute_block": "Scute Block",
+  "block.moremc.reinforced_scute_block": "Reinforced Scute Block",
+  "block.moremc.hardened_scute_block": "Hardened Scute Block"
 }
