@@ -41,7 +41,7 @@ public class ModItems {
 
 
 
-    // SCUTE TOOLS
+    // SCUTE TOOLS & ARMOR
 
         // SCUTE INGOT SWORD
     public static final RegistryObject<Item> SCUTE_SWORD = ITEMS.register("scute_sword",
@@ -71,12 +71,40 @@ public class ModItems {
     public static final RegistryObject<Item> SCUTE_HOE = ITEMS.register("scute_hoe",
             () -> new HoeItem(ModToolTiers.SCUTE, new Item.Properties()
                     .fireResistant()
-                    .attributes(HoeItem.createAttributes(ModToolTiers.SCUTE, -4f, -0f))));
+                    .attributes(HoeItem.createAttributes(ModToolTiers.SCUTE, -3f, 0f))));
+
+        //SCUTE HELMET
+    public static final RegistryObject<Item> SCUTE_HELMET = ITEMS.register("scute_helmet",
+                () -> new ArmorItem(ModArmorMaterials.SCUTE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                        new Item.Properties()
+                                .fireResistant()
+                                .durability(ArmorItem.Type.HELMET.getDurability(40))));
+
+    //SCUTE CHESTPLATE
+    public static final RegistryObject<Item> SCUTE_CHESTPLATE = ITEMS.register("scute_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.SCUTE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties()
+                            .fireResistant()
+                            .durability(ArmorItem.Type.CHESTPLATE.getDurability(40))));
+
+    //SCUTE LEGGINGS
+    public static final RegistryObject<Item> SCUTE_LEGGINGS = ITEMS.register("scute_leggings",
+            () -> new ArmorItem(ModArmorMaterials.SCUTE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties()
+                            .fireResistant()
+                            .durability(ArmorItem.Type.LEGGINGS.getDurability(40))));
+
+    //SCUTE BOOTS
+    public static final RegistryObject<Item> SCUTE_BOOTS = ITEMS.register("scute_boots",
+            () -> new ArmorItem(ModArmorMaterials.SCUTE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties()
+                            .fireResistant()
+                            .durability(ArmorItem.Type.BOOTS.getDurability(40))));
 
 
 
 
-    // REINFORCED SCUTE TOOLS
+    // REINFORCED SCUTE TOOLS & ARMOR
 
     // REINFORCED SCUTE INGOT SWORD
     public static final RegistryObject<Item> REINFORCED_SCUTE_SWORD = ITEMS.register("reinforced_scute_sword",
@@ -106,9 +134,37 @@ public class ModItems {
     public static final RegistryObject<Item> REINFORCED_SCUTE_HOE = ITEMS.register("reinforced_scute_hoe",
             () -> new HoeItem(ModToolTiers.REINFORCED_SCUTE, new Item.Properties()
                     .fireResistant()
-                    .attributes(HoeItem.createAttributes(ModToolTiers.REINFORCED_SCUTE, -5f, -0f))));
+                    .attributes(HoeItem.createAttributes(ModToolTiers.REINFORCED_SCUTE, 7f, -0.8f))));
 
-    // HARDENED SCUTE TOOLS
+    //REINFORCED SCUTE HELMET
+    public static final RegistryObject<Item> REINFORCED_SCUTE_HELMET = ITEMS.register("reinforced_scute_helmet",
+            () -> new ArmorItem(ModArmorMaterials.REINFORCED_SCUTE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties()
+                            .fireResistant()
+                            .durability(ArmorItem.Type.HELMET.getDurability(45))));
+
+    //REINFORCED SCUTE CHESTPLATE
+    public static final RegistryObject<Item> REINFORCED_SCUTE_CHESTPLATE = ITEMS.register("reinforced_scute_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.REINFORCED_SCUTE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties()
+                            .fireResistant()
+                            .durability(ArmorItem.Type.CHESTPLATE.getDurability(45))));
+
+    //REINFORCED SCUTE LEGGINGS
+    public static final RegistryObject<Item> REINFORCED_SCUTE_LEGGINGS = ITEMS.register("reinforced_scute_leggings",
+            () -> new ArmorItem(ModArmorMaterials.REINFORCED_SCUTE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties()
+                            .fireResistant()
+                            .durability(ArmorItem.Type.LEGGINGS.getDurability(45))));
+
+    //REINFORCED SCUTE BOOTS
+    public static final RegistryObject<Item> REINFORCED_SCUTE_BOOTS = ITEMS.register("reinforced_scute_boots",
+            () -> new ArmorItem(ModArmorMaterials.REINFORCED_SCUTE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties()
+                            .fireResistant()
+                            .durability(ArmorItem.Type.BOOTS.getDurability(45))));
+
+    // HARDENED SCUTE TOOLS & ARMOR
 
     // HARDENED SCUTE INGOT SWORD
     public static final RegistryObject<Item> HARDENED_SCUTE_SWORD = ITEMS.register("hardened_scute_sword",
@@ -138,7 +194,36 @@ public class ModItems {
     public static final RegistryObject<Item> HARDENED_SCUTE_HOE = ITEMS.register("hardened_scute_hoe",
             () -> new HoeItem(ModToolTiers.HARDENED_SCUTE, new Item.Properties()
                     .fireResistant()
-                    .attributes(HoeItem.createAttributes(ModToolTiers.HARDENED_SCUTE, -6f, -0f))));
+                    .attributes(HoeItem.createAttributes(ModToolTiers.HARDENED_SCUTE, 10f, -0.6f))));
+
+    //HARDENED SCUTE HELMET
+    public static final RegistryObject<Item> HARDENED_SCUTE_HELMET = ITEMS.register("hardened_scute_helmet",
+            () -> new ArmorItem(ModArmorMaterials.HARDENED_SCUTE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties()
+                            .fireResistant()
+                            .durability(ArmorItem.Type.HELMET.getDurability(48))));
+
+    //HARDENED SCUTE CHESTPLATE
+    public static final RegistryObject<Item> HARDENED_SCUTE_CHESTPLATE = ITEMS.register("hardened_scute_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.HARDENED_SCUTE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties()
+                            .fireResistant()
+                            .durability(ArmorItem.Type.CHESTPLATE.getDurability(48))));
+
+    //HARDENED SCUTE LEGGINGS
+    public static final RegistryObject<Item> HARDENED_SCUTE_LEGGINGS = ITEMS.register("hardened_scute_leggings",
+            () -> new ArmorItem(ModArmorMaterials.HARDENED_SCUTE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties()
+                            .fireResistant()
+                            .durability(ArmorItem.Type.LEGGINGS.getDurability(48))));
+
+    //HARDENED SCUTE BOOTS
+    public static final RegistryObject<Item> HARDENED_SCUTE_BOOTS = ITEMS.register("hardened_scute_boots",
+            () -> new ArmorItem(ModArmorMaterials.HARDENED_SCUTE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties()
+                            .fireResistant()
+                            .durability(ArmorItem.Type.BOOTS.getDurability(48))));
+
 
 
     public static void register(IEventBus eventBus) {

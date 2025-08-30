@@ -22,19 +22,30 @@
   "item.moremc.scute_shovel": "Scute Shovel",
   "item.moremc.scute_hoe": "Scute Hoe",
 
+  "item.moremc.scute_helmet": "Scute Helmet",
+  "item.moremc.scute_chestplate": "Scute Chestplate",
+  "item.moremc.scute_leggings": "Scute Leggings",
+  "item.moremc.scute_boots": "Scute Boots",
+
   "item.moremc.reinforced_scute_sword": "Reinforced Scute Sword",
   "item.moremc.reinforced_scute_pickaxe": "Reinforced Scute Pickaxe",
   "item.moremc.reinforced_scute_axe": "Reinforced Scute Axe",
   "item.moremc.reinforced_scute_shovel": "Reinforced Scute Shovel",
   "item.moremc.reinforced_scute_hoe": "Reinforced Scute Hoe",
 
+  "item.moremc.reinforced_scute_helmet": "Reinforced Scute Helmet",
+  "item.moremc.reinforced_scute_chestplate": "Reinforced Scute Chestplate",
+  "item.moremc.reinforced_scute_leggings": "Reinforced Scute Leggings",
+  "item.moremc.reinforced_scute_boots": "Reinforced Scute Boots",
+
   "item.moremc.hardened_scute_sword": "Hardened Scute Sword",
   "item.moremc.hardened_scute_pickaxe": "Hardened Scute Pickaxe",
   "item.moremc.hardened_scute_axe": "Hardened Scute Axe",
   "item.moremc.hardened_scute_shovel": "Hardened Scute Shovel",
-  "item.moremc.hardened_scute_hoe": "Hardened Scute Hoe"
+  "item.moremc.hardened_scute_hoe": "Hardened Scute Hoe",
 
-
-
-
+  "item.moremc.hardened_scute_helmet": "Hardened Scute Helmet",
+  "item.moremc.hardened_scute_chestplate": "Hardened Scute Chestplate",
+  "item.moremc.hardened_scute_leggings": "Hardened Scute Leggings",
+  "item.moremc.hardened_scute_boots": "Hardened Scute Boots"
 }

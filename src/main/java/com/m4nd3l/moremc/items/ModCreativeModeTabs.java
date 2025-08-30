@@ -11,6 +11,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
+
 public class ModCreativeModeTabs {
 
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -44,17 +45,32 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SCUTE_SHOVEL.get());
                         output.accept(ModItems.SCUTE_HOE.get());
 
+                        output.accept(ModItems.SCUTE_HELMET.get());
+                        output.accept(ModItems.SCUTE_CHESTPLATE.get());
+                        output.accept(ModItems.SCUTE_LEGGINGS.get());
+                        output.accept(ModItems.SCUTE_BOOTS.get());
+
                         output.accept(ModItems.REINFORCED_SCUTE_SWORD.get());
                         output.accept(ModItems.REINFORCED_SCUTE_PICKAXE.get());
                         output.accept(ModItems.REINFORCED_SCUTE_AXE.get());
                         output.accept(ModItems.REINFORCED_SCUTE_SHOVEL.get());
                         output.accept(ModItems.REINFORCED_SCUTE_HOE.get());
 
+                        output.accept(ModItems.REINFORCED_SCUTE_HELMET.get());
+                        output.accept(ModItems.REINFORCED_SCUTE_CHESTPLATE.get());
+                        output.accept(ModItems.REINFORCED_SCUTE_LEGGINGS.get());
+                        output.accept(ModItems.REINFORCED_SCUTE_BOOTS.get());
+
                         output.accept(ModItems.HARDENED_SCUTE_SWORD.get());
                         output.accept(ModItems.HARDENED_SCUTE_PICKAXE.get());
                         output.accept(ModItems.HARDENED_SCUTE_AXE.get());
                         output.accept(ModItems.HARDENED_SCUTE_SHOVEL.get());
                         output.accept(ModItems.HARDENED_SCUTE_HOE.get());
+
+                        output.accept(ModItems.HARDENED_SCUTE_HELMET.get());
+                        output.accept(ModItems.HARDENED_SCUTE_CHESTPLATE.get());
+                        output.accept(ModItems.HARDENED_SCUTE_LEGGINGS.get());
+                        output.accept(ModItems.HARDENED_SCUTE_BOOTS.get());
 
                     }).build());
 

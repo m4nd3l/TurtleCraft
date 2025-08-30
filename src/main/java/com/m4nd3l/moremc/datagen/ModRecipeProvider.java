@@ -341,6 +341,177 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('|', Items.STICK)
                 .unlockedBy("got_scute", has(ModItems.HARDENED_SCUTE_INGOT.get()))
                 .unlockedBy("has_stick", has(Items.STICK)).save(pRecipeOutput);
+        //
+        //
+        //
+        //
+        // SCUTE ARMOR
+
+        //SCUTE HELMET -> 5 SCUTE INGOT (UP)
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.SCUTE_HELMET.get())
+                .pattern("###")
+                .pattern("# #")
+                .pattern("   ")
+                .define('#', ModItems.SCUTE_INGOT.get())
+                .unlockedBy("got_scute", has(ModItems.SCUTE_INGOT.get()))
+                .save(pRecipeOutput, MoreMC.MOD_ID + ":scute_helmet_from_crafting_up");
+
+        //SCUTE HELMET -> 5 SCUTE INGOT (DOWN)
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.SCUTE_HELMET.get())
+                .pattern("   ")
+                .pattern("###")
+                .pattern("# #")
+                .define('#', ModItems.SCUTE_INGOT.get())
+                .unlockedBy("got_scute", has(ModItems.SCUTE_INGOT.get()))
+                .save(pRecipeOutput, MoreMC.MOD_ID + ":scute_helmet_from_crafting_down");
+
+        //SCUTE CHESTPLATE -> 5 SCUTE INGOT
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.SCUTE_CHESTPLATE.get())
+                .pattern("# #")
+                .pattern("###")
+                .pattern("###")
+                .define('#', ModItems.SCUTE_INGOT.get())
+                .unlockedBy("got_scute", has(ModItems.SCUTE_INGOT.get())).save(pRecipeOutput);
+
+        //SCUTE LEGGINGS -> 5 SCUTE INGOT
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.SCUTE_LEGGINGS.get())
+                .pattern("###")
+                .pattern("# #")
+                .pattern("# #")
+                .define('#', ModItems.SCUTE_INGOT.get())
+                .unlockedBy("got_scute", has(ModItems.SCUTE_INGOT.get())).save(pRecipeOutput);
+
+        //SCUTE BOOTS -> 5 SCUTE INGOT (UP)
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.SCUTE_BOOTS.get())
+                .pattern("# #")
+                .pattern("# #")
+                .pattern("   ")
+                .define('#', ModItems.SCUTE_INGOT.get())
+                .unlockedBy("got_scute", has(ModItems.SCUTE_INGOT.get()))
+                .save(pRecipeOutput, MoreMC.MOD_ID + ":scute_boots_from_crafting_up");
+
+        //SCUTE BOOTS -> 5 SCUTE INGOT (DOWN)
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.SCUTE_BOOTS.get())
+                .pattern("   ")
+                .pattern("# #")
+                .pattern("# #")
+                .define('#', ModItems.SCUTE_INGOT.get())
+                .unlockedBy("got_scute", has(ModItems.SCUTE_INGOT.get()))
+                .save(pRecipeOutput, MoreMC.MOD_ID + ":scute_boots_from_crafting_down");
+        //
+        //
+        //
+        //
+        // REINFORCED SCUTE ARMOR
+
+        //REINFORCED SCUTE HELMET -> 5 REINFORCED SCUTE INGOT (UP)
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.REINFORCED_SCUTE_HELMET.get())
+                .pattern("###")
+                .pattern("# #")
+                .pattern("   ")
+                .define('#', ModItems.REINFORCED_SCUTE_INGOT.get())
+                .unlockedBy("got_scute", has(ModItems.REINFORCED_SCUTE_INGOT.get()))
+                .save(pRecipeOutput, MoreMC.MOD_ID + ":reinforced_scute_helmet_from_crafting_up");
+
+        //REINFORCED SCUTE HELMET -> 5 REINFORCED SCUTE INGOT (DOWN)
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.REINFORCED_SCUTE_HELMET.get())
+                .pattern("   ")
+                .pattern("###")
+                .pattern("# #")
+                .define('#', ModItems.REINFORCED_SCUTE_INGOT.get())
+                .unlockedBy("got_scute", has(ModItems.REINFORCED_SCUTE_INGOT.get()))
+                .save(pRecipeOutput, MoreMC.MOD_ID + ":reinforced_scute_helmet_from_crafting_down");
+
+        //REINFORCED SCUTE CHESTPLATE -> 5 REINFORCED SCUTE INGOT
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.REINFORCED_SCUTE_CHESTPLATE.get())
+                .pattern("# #")
+                .pattern("###")
+                .pattern("###")
+                .define('#', ModItems.REINFORCED_SCUTE_INGOT.get())
+                .unlockedBy("got_scute", has(ModItems.REINFORCED_SCUTE_INGOT.get())).save(pRecipeOutput);
+
+        //REINFORCED SCUTE LEGGINGS -> 5 REINFORCED SCUTE INGOT
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.REINFORCED_SCUTE_LEGGINGS.get())
+                .pattern("###")
+                .pattern("# #")
+                .pattern("# #")
+                .define('#', ModItems.REINFORCED_SCUTE_INGOT.get())
+                .unlockedBy("got_scute", has(ModItems.REINFORCED_SCUTE_INGOT.get())).save(pRecipeOutput);
+
+        //REINFORCED SCUTE BOOTS -> 5 REINFORCED SCUTE INGOT (UP)
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.REINFORCED_SCUTE_BOOTS.get())
+                .pattern("# #")
+                .pattern("# #")
+                .pattern("   ")
+                .define('#', ModItems.REINFORCED_SCUTE_INGOT.get())
+                .unlockedBy("got_scute", has(ModItems.REINFORCED_SCUTE_INGOT.get()))
+                .save(pRecipeOutput, MoreMC.MOD_ID + ":reinforced_scute_boots_from_crafting_up");
+
+        //REINFORCED SCUTE BOOTS -> 5 REINFORCED SCUTE INGOT (DOWN)
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.REINFORCED_SCUTE_BOOTS.get())
+                .pattern("   ")
+                .pattern("# #")
+                .pattern("# #")
+                .define('#', ModItems.REINFORCED_SCUTE_INGOT.get())
+                .unlockedBy("got_scute", has(ModItems.REINFORCED_SCUTE_INGOT.get()))
+                .save(pRecipeOutput, MoreMC.MOD_ID + ":reinforced_scute_boots_from_crafting_down");
+        //
+        //
+        //
+        //
+        // HARDENED SCUTE ARMOR
+
+        //HARDENED SCUTE HELMET -> 5 HARDENED SCUTE INGOT (UP)
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.HARDENED_SCUTE_HELMET.get())
+                .pattern("###")
+                .pattern("# #")
+                .pattern("   ")
+                .define('#', ModItems.HARDENED_SCUTE_INGOT.get())
+                .unlockedBy("got_scute", has(ModItems.HARDENED_SCUTE_INGOT.get()))
+                .save(pRecipeOutput, MoreMC.MOD_ID + ":hardened_scute_helmet_from_crafting_up");
+
+        //HARDENED SCUTE HELMET -> 5 HARDENED SCUTE INGOT (DOWN)
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.HARDENED_SCUTE_HELMET.get())
+                .pattern("   ")
+                .pattern("###")
+                .pattern("# #")
+                .define('#', ModItems.HARDENED_SCUTE_INGOT.get())
+                .unlockedBy("got_scute", has(ModItems.HARDENED_SCUTE_INGOT.get()))
+                .save(pRecipeOutput, MoreMC.MOD_ID + ":hardened_scute_helmet_from_crafting_down");
+
+        //HARDENED SCUTE CHESTPLATE -> 5 HARDENED SCUTE INGOT
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.HARDENED_SCUTE_CHESTPLATE.get())
+                .pattern("# #")
+                .pattern("###")
+                .pattern("###")
+                .define('#', ModItems.HARDENED_SCUTE_INGOT.get())
+                .unlockedBy("got_scute", has(ModItems.HARDENED_SCUTE_INGOT.get())).save(pRecipeOutput);
+
+        //HARDENED SCUTE LEGGINGS -> 5 HARDENED SCUTE INGOT
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.HARDENED_SCUTE_LEGGINGS.get())
+                .pattern("###")
+                .pattern("# #")
+                .pattern("# #")
+                .define('#', ModItems.HARDENED_SCUTE_INGOT.get())
+                .unlockedBy("got_scute", has(ModItems.HARDENED_SCUTE_INGOT.get())).save(pRecipeOutput);
+
+        //HARDENED SCUTE BOOTS -> 5 HARDENED SCUTE INGOT (UP)
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.HARDENED_SCUTE_BOOTS.get())
+                .pattern("# #")
+                .pattern("# #")
+                .pattern("   ")
+                .define('#', ModItems.HARDENED_SCUTE_INGOT.get())
+                .unlockedBy("got_scute", has(ModItems.HARDENED_SCUTE_INGOT.get()))
+                .save(pRecipeOutput, MoreMC.MOD_ID + ":hardened_scute_boots_from_crafting_up");
+
+        //HARDENED SCUTE BOOTS -> 5 HARDENED SCUTE INGOT (DOWN)
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.HARDENED_SCUTE_BOOTS.get())
+                .pattern("   ")
+                .pattern("# #")
+                .pattern("# #")
+                .define('#', ModItems.HARDENED_SCUTE_INGOT.get())
+                .unlockedBy("got_scute", has(ModItems.HARDENED_SCUTE_INGOT.get()))
+                .save(pRecipeOutput, MoreMC.MOD_ID + ":hardened_scute_boots_from_crafting_down");
 
     }
 }
