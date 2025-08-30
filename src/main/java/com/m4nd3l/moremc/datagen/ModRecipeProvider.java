@@ -223,5 +223,124 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('|', Items.STICK)
                 .unlockedBy("got_scute", has(ModItems.SCUTE_INGOT.get()))
                 .unlockedBy("has_stick", has(Items.STICK)).save(pRecipeOutput);
+        //
+        //
+        //
+        //
+        // REINFORCED SCUTE TOOLS
+
+        //REINFORCED SCUTE SWORD -> 2 SCUTE INGOT + 1 STICK
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.REINFORCED_SCUTE_SWORD.get())
+                .pattern(" # ")
+                .pattern(" # ")
+                .pattern(" | ")
+                .define('#', ModItems.REINFORCED_SCUTE_INGOT.get())
+                .define('|', Items.STICK)
+                .unlockedBy("got_scute", has(ModItems.REINFORCED_SCUTE_INGOT.get()))
+                .unlockedBy("has_stick", has(Items.STICK)).save(pRecipeOutput);
+
+
+        //REINFORCED SCUTE PICKAXE -> 3 REINFORCED SCUTE INGOT + 2 STICK
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.REINFORCED_SCUTE_PICKAXE.get())
+                .pattern("###")
+                .pattern(" | ")
+                .pattern(" | ")
+                .define('#', ModItems.REINFORCED_SCUTE_INGOT.get())
+                .define('|', Items.STICK)
+                .unlockedBy("got_scute", has(ModItems.REINFORCED_SCUTE_INGOT.get()))
+                .unlockedBy("has_stick", has(Items.STICK)).save(pRecipeOutput);
+
+
+        //REINFORCED SCUTE AXE -> 3 REINFORCED SCUTE INGOT + 2 STICK
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.REINFORCED_SCUTE_AXE.get())
+                .pattern(" ##")
+                .pattern(" |#")
+                .pattern(" | ")
+                .define('#', ModItems.REINFORCED_SCUTE_INGOT.get())
+                .define('|', Items.STICK)
+                .unlockedBy("got_scute", has(ModItems.REINFORCED_SCUTE_INGOT.get()))
+                .unlockedBy("has_stick", has(Items.STICK)).save(pRecipeOutput);
+
+
+        //REINFORCED SCUTE SHOVEL -> 1 REINFORCED SCUTE INGOT + 2 STICK
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.REINFORCED_SCUTE_SHOVEL.get())
+                .pattern(" # ")
+                .pattern(" | ")
+                .pattern(" | ")
+                .define('#', ModItems.REINFORCED_SCUTE_INGOT.get())
+                .define('|', Items.STICK)
+                .unlockedBy("got_scute", has(ModItems.REINFORCED_SCUTE_INGOT.get()))
+                .unlockedBy("has_stick", has(Items.STICK)).save(pRecipeOutput);
+
+
+        //REINFORCED SCUTE HOE -> 2 REINFORCED SCUTE INGOT + 2 STICK
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.REINFORCED_SCUTE_HOE.get())
+                .pattern(" ##")
+                .pattern(" | ")
+                .pattern(" | ")
+                .define('#', ModItems.REINFORCED_SCUTE_INGOT.get())
+                .define('|', Items.STICK)
+                .unlockedBy("got_scute", has(ModItems.REINFORCED_SCUTE_INGOT.get()))
+                .unlockedBy("has_stick", has(Items.STICK)).save(pRecipeOutput);
+        //
+        //
+        //
+        //
+        // HARDENED SCUTE TOOLS
+
+        //HARDENED SCUTE SWORD -> 2 HARDENED SCUTE INGOT + 1 STICK
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.HARDENED_SCUTE_SWORD.get())
+                .pattern(" # ")
+                .pattern(" # ")
+                .pattern(" | ")
+                .define('#', ModItems.HARDENED_SCUTE_INGOT.get())
+                .define('|', Items.STICK)
+                .unlockedBy("got_scute", has(ModItems.HARDENED_SCUTE_INGOT.get()))
+                .unlockedBy("has_stick", has(Items.STICK)).save(pRecipeOutput);
+
+
+        //HARDENED SCUTE PICKAXE -> 3 HARDENED SCUTE INGOT + 2 STICK
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.HARDENED_SCUTE_PICKAXE.get())
+                .pattern("###")
+                .pattern(" | ")
+                .pattern(" | ")
+                .define('#', ModItems.HARDENED_SCUTE_INGOT.get())
+                .define('|', Items.STICK)
+                .unlockedBy("got_scute", has(ModItems.HARDENED_SCUTE_INGOT.get()))
+                .unlockedBy("has_stick", has(Items.STICK)).save(pRecipeOutput);
+
+
+        //HARDENED SCUTE AXE -> 3 HARDENED SCUTE INGOT + 2 STICK
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.HARDENED_SCUTE_AXE.get())
+                .pattern(" ##")
+                .pattern(" |#")
+                .pattern(" | ")
+                .define('#', ModItems.HARDENED_SCUTE_INGOT.get())
+                .define('|', Items.STICK)
+                .unlockedBy("got_scute", has(ModItems.HARDENED_SCUTE_INGOT.get()))
+                .unlockedBy("has_stick", has(Items.STICK)).save(pRecipeOutput);
+
+
+        //HARDENED SCUTE SHOVEL -> 1 HARDENED SCUTE INGOT + 2 STICK
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.HARDENED_SCUTE_SHOVEL.get())
+                .pattern(" # ")
+                .pattern(" | ")
+                .pattern(" | ")
+                .define('#', ModItems.HARDENED_SCUTE_INGOT.get())
+                .define('|', Items.STICK)
+                .unlockedBy("got_scute", has(ModItems.HARDENED_SCUTE_INGOT.get()))
+                .unlockedBy("has_stick", has(Items.STICK)).save(pRecipeOutput);
+
+
+        //HARDENED SCUTE HOE -> 2 HARDENED SCUTE INGOT + 2 STICK
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.HARDENED_SCUTE_HOE.get())
+                .pattern(" ##")
+                .pattern(" | ")
+                .pattern(" | ")
+                .define('#', ModItems.HARDENED_SCUTE_INGOT.get())
+                .define('|', Items.STICK)
+                .unlockedBy("got_scute", has(ModItems.HARDENED_SCUTE_INGOT.get()))
+                .unlockedBy("has_stick", has(Items.STICK)).save(pRecipeOutput);
+
     }
 }

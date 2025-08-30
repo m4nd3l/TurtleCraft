@@ -30,6 +30,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.HARDENED_SCUTE_BLOCK.get())
                 .add(ModBlocks.REINFORCED_SCUTE_INGOT_BLOCK.get());
 
+
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.SCUTE_BLOCK.get())
                 .add(ModBlocks.SCUTE_INGOT_BLOCK.get())
@@ -40,6 +41,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.HARDENED_SCUTE_BLOCK.get())
                 .add(ModBlocks.REINFORCED_SCUTE_INGOT_BLOCK.get());
 
+
         tag(ModTags.Blocks.NEEDS_SCUTE_TOOL)
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
@@ -48,12 +50,14 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .remove(ModTags.Blocks.NEEDS_SCUTE_TOOL);
 
 
+
         tag(ModTags.Blocks.NEEDS_REINFORCED_SCUTE_TOOL)
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
         tag(ModTags.Blocks.INCORRECT_FOR_REINFORCED_SCUTE_TOOL)
                 .addTag(BlockTags.INCORRECT_FOR_NETHERITE_TOOL)
                 .remove(ModTags.Blocks.NEEDS_REINFORCED_SCUTE_TOOL);
+
 
 
         tag(ModTags.Blocks.NEEDS_HARDENED_SCUTE_TOOL)

@@ -44,6 +44,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SCUTE_SHOVEL.get());
                         output.accept(ModItems.SCUTE_HOE.get());
 
+                        output.accept(ModItems.REINFORCED_SCUTE_SWORD.get());
+                        output.accept(ModItems.REINFORCED_SCUTE_PICKAXE.get());
+                        output.accept(ModItems.REINFORCED_SCUTE_AXE.get());
+                        output.accept(ModItems.REINFORCED_SCUTE_SHOVEL.get());
+                        output.accept(ModItems.REINFORCED_SCUTE_HOE.get());
+
+                        output.accept(ModItems.HARDENED_SCUTE_SWORD.get());
+                        output.accept(ModItems.HARDENED_SCUTE_PICKAXE.get());
+                        output.accept(ModItems.HARDENED_SCUTE_AXE.get());
+                        output.accept(ModItems.HARDENED_SCUTE_SHOVEL.get());
+                        output.accept(ModItems.HARDENED_SCUTE_HOE.get());
+
                     }).build());
 
     // PER LE ALTRE TAB AGGIUNGI .withTabsBefore(SCUTE_ITEMS_TAB.getId())

@@ -30,6 +30,18 @@ public class ModItemModelProvider extends ItemModelProvider {
         handHeldItem(ModItems.SCUTE_AXE);
         handHeldItem(ModItems.SCUTE_SHOVEL);
         handHeldItem(ModItems.SCUTE_HOE);
+
+        handHeldItem(ModItems.REINFORCED_SCUTE_SWORD);
+        handHeldItem(ModItems.REINFORCED_SCUTE_PICKAXE);
+        handHeldItem(ModItems.REINFORCED_SCUTE_AXE);
+        handHeldItem(ModItems.REINFORCED_SCUTE_SHOVEL);
+        handHeldItem(ModItems.REINFORCED_SCUTE_HOE);
+
+        handHeldItem(ModItems.HARDENED_SCUTE_SWORD);
+        handHeldItem(ModItems.HARDENED_SCUTE_PICKAXE);
+        handHeldItem(ModItems.HARDENED_SCUTE_AXE);
+        handHeldItem(ModItems.HARDENED_SCUTE_SHOVEL);
+        handHeldItem(ModItems.HARDENED_SCUTE_HOE);
     }
 
     private ItemModelBuilder handHeldItem(RegistryObject<Item> item) {
